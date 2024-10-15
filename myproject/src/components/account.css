@@ -1,0 +1,68 @@
+/* Account.css */
+.account-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .account-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .login-form .form-group,
+  .register-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-form label,
+  .register-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"],
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-form button,
+  .register-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover,
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .toggle-form {
+    margin-top: 15px;
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .toggle-form:hover {
+    text-decoration: underline;
+  }
+  
